@@ -9,8 +9,6 @@ RUN cd /service; bundler install
 
 EXPOSE 80
 
-ENV MENSAGEM_MD5=teste
-
 ENV AUTH_SERVICE_METRICS_KEY=teste
 
 CMD ["sh", "-c", "cd /service && ruby api/api.rb -p 80"]
