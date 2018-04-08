@@ -1,0 +1,6 @@
+database:
+  dev:
+    host: '192.168.99.100'
+    porta: '3330'
+    usuario: 'root'
+    senha: 'root'
